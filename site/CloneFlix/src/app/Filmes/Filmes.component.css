@@ -22,6 +22,7 @@ a{
 
 .icon{
     margin-left: 50%;
+    cursor: pointer;
 }
 
 .background{
@@ -71,14 +72,55 @@ input{
 }
 
 
+.Recomendados {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recomendado{
+    margin-left: 3%;
+    margin-right: auto;
+    
+}
+
+.filmeRecomendado{
+    margin-left: -1%;
+    margin-top: 12%;
+}
+
+.filmeRecomendado:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+img{
+    border-radius: 5px;
+}
+
+h2{
+    color: white;
+    margin-left: 25%;
+    font-weight: 500;
+}
+
 /* responsividades */
 
 @media screen and (max-width: 768px) {
     .background{
-        width: 160%;
+        width: 115vw;
         height: 160vh;
         background-position: 50%;
     }
+
+    .recomendado{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    
 
     input{
         width: 100px;
@@ -86,6 +128,23 @@ input{
 
     .MoreInformation{
         width: 150px;
+    }
+
+    .PrimaryHeader{
+        flex-direction: column;
+        margin-left: -23%;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .icon{
+        margin-left: 105%;
+    }
+
+    h3{
+        text-align: center;
+        width: 55%;
     }
 }
 
