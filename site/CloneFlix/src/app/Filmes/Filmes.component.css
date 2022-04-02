@@ -110,13 +110,13 @@ h2{
 
 @media screen and (max-width: 768px) {
     .background{
-        width: 115vw;
+        width: initial;
         height: 160vh;
         background-position: 50%;
     }
 
     .recomendado{
-        margin-left: auto;
+        margin-left: 15px;
         margin-right: auto;
         margin-top: 5%;
     }
@@ -132,7 +132,7 @@ h2{
 
     .PrimaryHeader{
         flex-direction: column;
-        margin-left: -23%;
+        margin-left: -27%;
         margin-right: auto;
         text-align: center;
         width: 100%;
@@ -143,8 +143,9 @@ h2{
     }
 
     h3{
-        text-align: center;
-        width: 55%;
+        line-height: 30px;
+        width: 80%;
+        
     }
 }
 
